@@ -15,6 +15,7 @@ for ii in *.xyz ; do
 #SBATCH --mem-per-cpu=4000M
 #SBATCH --account=def-dilabiog-ac
 
+module load python
 module load StdEnv intel intelmpi
 module load dirac
 
